@@ -1,0 +1,10 @@
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\obj\Debug\ProjetAtlantik.csproj.AssemblyReference.cache
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\obj\Debug\ProjetAtlantik.PageAccueil.resources
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\obj\Debug\ProjetAtlantik.Properties.Resources.resources
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\obj\Debug\ProjetAtlantik.csproj.GenerateResource.cache
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\obj\Debug\ProjetAtlantik.csproj.CoreCompileInputs.cache
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\bin\Debug\ProjetAtlantik.exe.config
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\bin\Debug\ProjetAtlantik.exe
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\bin\Debug\ProjetAtlantik.pdb
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\obj\Debug\ProjetAtlantik.exe
+C:\Users\de_araujo\source\repos\ProjetAtlantik\ProjetAtlantik\obj\Debug\ProjetAtlantik.pdb
