@@ -16,7 +16,7 @@ namespace Atlantik_Projet_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormAjoutSecteur());
+            Application.Run(new FormAjoutLiaison());
         }
     }
 }
