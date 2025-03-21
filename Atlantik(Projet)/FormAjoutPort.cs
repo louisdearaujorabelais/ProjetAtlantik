@@ -29,6 +29,7 @@ namespace Atlantik_Projet_
                 var maCde = new MySqlCommand(RequeteAjoutPort, maCnx);
                 string Port = tbxEntreePort.Text;
                 maCde.Parameters.AddWithValue("@Port", Port);
+
                 maCde.ExecuteReader();
             }
             catch (MySqlException ex)
@@ -40,6 +41,11 @@ namespace Atlantik_Projet_
                 maCnx.Close();
                 MessageBox.Show("Ajout Ok");
             }
+        }
+
+        private void tbxEntreePort_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

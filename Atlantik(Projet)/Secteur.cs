@@ -25,6 +25,11 @@ namespace Atlantik_Projet_
         {
             return Nom;
         }
+
+        public int GetNoSecteur()
+        {
+            return NoSecteur;
+        }
         public override string ToString()
         {
             return Nom;

@@ -98,6 +98,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAjouterTarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAjouterTarif.Designer.cs">
+      <DependentUpon>FormAjouterTarif.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAjoutLiaison.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,9 +122,13 @@
     <Compile Include="FormAjoutSecteur.Designer.cs">
       <DependentUpon>FormAjoutSecteur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Port.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Secteur.cs" />
+    <EmbeddedResource Include="FormAjouterTarif.resx">
+      <DependentUpon>FormAjouterTarif.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAjoutLiaison.resx">
       <DependentUpon>FormAjoutLiaison.cs</DependentUpon>
     </EmbeddedResource>

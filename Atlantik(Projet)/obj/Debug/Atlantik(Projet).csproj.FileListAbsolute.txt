@@ -43,3 +43,4 @@ C:\Users\de_araujo\source\repos\Atlantik(Projet)\Atlantik(Projet)\obj\Debug\Atla
 C:\Users\de_araujo\source\repos\Atlantik(Projet)\Atlantik(Projet)\obj\Debug\Atlantik(Projet).pdb
 C:\Users\de_araujo\source\repos\Atlantik(Projet)\Atlantik(Projet)\obj\Debug\Atlantik_Projet_.FormAjoutPort.resources
 C:\Users\de_araujo\source\repos\Atlantik(Projet)\Atlantik(Projet)\obj\Debug\Atlantik_Projet_.FormAjoutLiaison.resources
+C:\Users\de_araujo\source\repos\Atlantik(Projet)\Atlantik(Projet)\obj\Debug\Atlantik_Projet_.FormAjouterTarif.resources

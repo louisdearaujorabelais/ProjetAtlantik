@@ -133,6 +133,7 @@
             this.Controls.Add(this.lbxListeSecteur);
             this.Name = "FormAjoutLiaison";
             this.Text = "FormAjoutLiaison";
+            this.Load += new System.EventHandler(this.FormAjoutLiaison_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

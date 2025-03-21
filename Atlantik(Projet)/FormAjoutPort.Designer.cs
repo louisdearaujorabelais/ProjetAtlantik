@@ -49,6 +49,7 @@
             this.tbxEntreePort.Name = "tbxEntreePort";
             this.tbxEntreePort.Size = new System.Drawing.Size(100, 20);
             this.tbxEntreePort.TabIndex = 1;
+            this.tbxEntreePort.TextChanged += new System.EventHandler(this.tbxEntreePort_TextChanged);
             // 
             // lblNomPort
             // 
