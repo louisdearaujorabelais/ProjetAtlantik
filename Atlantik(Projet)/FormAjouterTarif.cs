@@ -186,8 +186,12 @@ namespace Atlantik_Projet_
             }
         }
 
+
+
+
         private void btnAjouter_Click(object sender, EventArgs e)
         {
+            MySqlConnection maCnx = new MySqlConnection("server=localhost;user=root;database=atlantik;port=3306;password=");
             MySqlDataReader jeu3Enr = null;
             try
             {
@@ -195,28 +199,16 @@ namespace Atlantik_Projet_
                 string requête;
                 maCnx.Open(); // on se connecte
                 // DEBUT requête paramétrée
-                requête = "Select * from type";
+                requête = "INSERT INTO tarifier (NOPERIODE, LETTRECATEGORIE, NOTYPE, NOLIAISON, TARIF) VALUES (@NoPeriode, @LettreCategorie, @NoType, @NoLiaison, @Tarif)";
                 var maCde = new MySqlCommand(requête, maCnx);
+                maCde.Parameters.AddWithValue("@NoPeriode", ((Periode)(cmbLiaison.SelectedItem)).GetNoPeriode());
+                maCde.Parameters.AddWithValue("@LettreCategorie", ((Type)()).GetNoPeriode());
+                maCde.Parameters.AddWithValue("@NoType", ((Type)()).GetNoPeriode());
+                maCde.Parameters.AddWithValue("@NoLiaison", ((Liaison)(cmbLiaison.SelectedItem)).GetNoLiaison());
+                maCde.Parameters.AddWithValue("@Tarif", ((Type)()).GetNoPeriode());
                 // POUR SOUCIS DE TYPAGE voir exemple ExecuteNonQuery, ci-dessus
                 // FIN requête paramétrée
                 jeu3Enr = maCde.ExecuteReader();
-                while (jeu3Enr.Read())
-                {
-                    i += 1;
-                    string EntreeLettreCategorie = Convert.ToString(jeu3Enr["LETTRECATEGORIE"]);
-                    string EntreeLibelle = Convert.ToString(jeu3Enr["LIBELLE"]);
-                    int EntreeNoType = Convert.ToInt32(jeu3Enr["NOTYPE"]);
-                    Type unType = new Type(EntreeNoType, EntreeLettreCategorie, EntreeLibelle);
-                    Label lbl = new Label();
-                    lbl.Text = unType.ToString();
-                    lbl.Location = new Point(10, i * 30);
-                    gbxTarif.Controls.Add(lbl);
-
-                    TextBox tbx = new TextBox();
-                    tbx.Location = new Point(120, i * 30);
-                    gbxTarif.Controls.Add(tbx);
-
-                }
             }
             catch (MySqlException u)
             {
