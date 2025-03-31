@@ -70,6 +70,7 @@
             this.Controls.Add(this.btnAjoutSecteur);
             this.Name = "FormAjoutSecteur";
             this.Text = "FormAjoutSecteur";
+            this.Load += new System.EventHandler(this.FormAjoutSecteur_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

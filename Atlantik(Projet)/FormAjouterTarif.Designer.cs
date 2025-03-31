@@ -99,6 +99,7 @@
             this.btnAjouter.TabIndex = 6;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // gbxTarif
             // 
@@ -108,6 +109,7 @@
             this.gbxTarif.TabIndex = 7;
             this.gbxTarif.TabStop = false;
             this.gbxTarif.Text = "Tarifs par Catégorie-Type";
+            this.gbxTarif.Enter += new System.EventHandler(this.gbxTarif_Enter);
             // 
             // FormAjouterTarif
             // 

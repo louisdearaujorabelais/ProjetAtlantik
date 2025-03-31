@@ -46,5 +46,10 @@ namespace Atlantik_Projet_
         {
 
         }
+
+        private void FormAjoutSecteur_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

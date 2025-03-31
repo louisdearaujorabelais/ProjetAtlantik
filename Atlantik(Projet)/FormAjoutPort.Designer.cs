@@ -70,6 +70,7 @@
             this.Controls.Add(this.btnAjouterPort);
             this.Name = "FormAjoutPort";
             this.Text = "FormAjoutPort";
+            this.Load += new System.EventHandler(this.FormAjoutPort_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
